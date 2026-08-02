@@ -4,12 +4,17 @@ Manage your [regfish](https://regfish.de) domains, DNS records, DNSSEC and web
 hosting directly from Claude — with one install, not three.
 
 ```shell
-/plugin marketplace add regfish/claude-plugin
-/plugin install regfish@regfish
+claude plugin marketplace add regfish/claude-plugin
+claude plugin install regfish@regfish --config api_key=<your-api-key>
 ```
 
-Claude asks for your regfish API key during installation and stores it in your
-system keychain. That is the whole setup.
+Your key goes into the install command and is stored in the system keychain, not
+in a config file. That is the whole setup.
+
+The same two lines work as `/plugin …` inside a running session. If you leave
+`--config` off, the plugin installs but stays unconfigured — rerun the install
+command with the key, or use `/plugin configure regfish@regfish` where the
+interactive dialog is available.
 
 ## What you get
 
@@ -75,6 +80,16 @@ cannot leak them.
 The MCP server works with any MCP client. Point it at
 `https://api.regfish.com/mcp` with `Authorization: Bearer <your-api-key>`.
 See the documentation linked above for a ready-made configuration snippet.
+
+## Also in this marketplace
+
+`dns-doctor@regfish` — free DNS, mail and security checks against any domain, no
+account needed. Lives in [regfish/dns-doctor-mcp](https://github.com/regfish/dns-doctor-mcp)
+and installs from here:
+
+```shell
+claude plugin install dns-doctor@regfish
+```
 
 ## License
 
