@@ -1,5 +1,5 @@
 ---
-description: Overview of the regfish hosting packages in this account, and which domains run on them.
+description: List the regfish hosting packages in this account and which domains run on them.
 argument-hint: [package-id]
 ---
 
