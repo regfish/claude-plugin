@@ -1,7 +1,7 @@
 {
   "name": "regfish",
   "description": "Manage regfish domains, DNS records, DNSSEC and web hosting directly from Claude. Bundles the regfish MCP server and skills for safe DNS changes and domain diagnostics.",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "author": {
     "name": "regfish",
     "email": "support@regfish.com"
