@@ -1,7 +1,7 @@
 {
   "name": "regfish",
   "description": "Manage regfish domains, DNS records, DNSSEC and web hosting directly from Claude. Bundles the regfish MCP server and skills for safe DNS changes and domain diagnostics.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "regfish",
     "email": "support@regfish.com"
@@ -9,7 +9,14 @@
   "homepage": "https://regfish.de/docs/mcp",
   "repository": "https://github.com/regfish/claude-plugin",
   "license": "MIT",
-  "keywords": ["dns", "domains", "dnssec", "hosting", "registrar", "mcp"],
+  "keywords": [
+    "dns",
+    "domains",
+    "dnssec",
+    "hosting",
+    "registrar",
+    "mcp"
+  ],
   "userConfig": {
     "api_key": {
       "type": "string",
