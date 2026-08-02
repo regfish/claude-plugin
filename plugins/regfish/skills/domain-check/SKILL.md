@@ -23,6 +23,28 @@ Narrow the follow-up by symptom:
 | "Domain unreachable for some people" | `check_dnssec_health` |
 | "Is DNSSEC actually on?" | `get_dnssec_status` (registry) **and** `check_dnssec_health` (resolvers) |
 
+## "Is this domain still free?"
+
+`check_domain_available` asks the registry, so it works on any domain, not
+just the customer's. Three things to get right when reporting the answer:
+
+**An error is not a "no".** If the check cannot be completed the tool fails
+rather than returning `available: false`. Never round that off to "it's taken" —
+say the check did not go through and offer to retry. A wrong "taken" costs
+someone a domain.
+
+**`registered` is not the whole vocabulary.** `redemption_period` and
+`pending_delete` mean taken *today* but on the way back to the market; that is
+worth saying, because it changes what the customer does next. `reserved` means
+the registry blocks it outright — waiting will not help.
+
+**Available does not mean orderable here.** Registering, transferring and
+cancelling domains are deliberately not in the API — they cost money and cannot
+be undone by retrying — so the next step is always the regfish dashboard. Say
+that instead of hunting for a tool that does it. And `premium_class` says the
+registry prices the name differently: it is a tier, not a price, so do not
+quote it as one.
+
 ## Reading the findings
 
 A score is not a verdict. Read the individual findings: a domain at 70 with a
