@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "regfish": {
+      "type": "http",
+      "url": "https://api.regfish.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${user_config.api_key}"
+      }
+    }
+  }
+}

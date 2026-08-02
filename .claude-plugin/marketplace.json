@@ -1,0 +1,25 @@
+{
+  "name": "regfish",
+  "owner": {
+    "name": "regfish",
+    "email": "support@regfish.com"
+  },
+  "metadata": {
+    "description": "Official regfish plugins for Claude Code — manage domains and DNS from your assistant.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "regfish",
+      "source": "./plugins/regfish",
+      "description": "Domains, DNS, DNSSEC and hosting from Claude — includes the regfish MCP server and skills for safe DNS changes and domain diagnostics.",
+      "version": "1.0.0",
+      "author": {
+        "name": "regfish"
+      },
+      "homepage": "https://regfish.de/docs/mcp",
+      "license": "MIT",
+      "keywords": ["dns", "domains", "dnssec", "hosting", "registrar", "mcp"]
+    }
+  ]
+}
