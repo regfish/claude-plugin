@@ -18,7 +18,7 @@ The plugin bundles three things that are usually configured separately:
 | | What it is | What it does here |
 |---|---|---|
 | **MCP server** | The connection to regfish | 29 tools for domains, DNS, DNSSEC, diagnostics and hosting |
-| **Skills** | Working knowledge | Teaches Claude *how* to change DNS safely — read before write, verify after, and the traps that cost mail delivery |
+| **Skills** | Working knowledge | Teaches Claude *how* to work here: read before write and verify after for DNS, how to read a diagnosis, and how hosting and DNS fit together |
 | **Plugin** | The package | Ships both, versioned and updatable |
 
 Without the skills, Claude has tools but no judgement about them: it might add
@@ -51,6 +51,8 @@ narrowest role that gets the job done.
 > why is mail for example.de landing in spam?
 > check whether my nameserver change has propagated
 > is DNSSEC actually active for example.de?
+> which hosting package is example.de running on?
+> why doesn't my domain show my website?
 ```
 
 ## What it will not do
