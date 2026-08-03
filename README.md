@@ -9,12 +9,24 @@ claude plugin install regfish@regfish --config api_key=<your-api-key>
 ```
 
 Your key goes into the install command and is stored in the system keychain, not
-in a config file. That is the whole setup.
+in a config file.
+
+**Then start a new session.** Commands and MCP servers are wired up when a
+session starts, so a session that was already running does not see the plugin
+yet — `/reload-plugins` inside it, or simply open a new one.
 
 The same two lines work as `/plugin …` inside a running session. If you leave
-`--config` off, the plugin installs but stays unconfigured — rerun the install
-command with the key, or use `/plugin configure regfish@regfish` where the
-interactive dialog is available.
+`--config` off, the plugin installs but stays unconfigured, and the tools answer
+with a 401 that says so — rerun the install command with the key, or use
+`/plugin configure regfish@regfish` where the interactive dialog is available.
+
+Written literally, the key lands in your shell history. To avoid that, keep it in
+a file and let the shell substitute it:
+
+```shell
+printf %s '<your-api-key>' > ~/.regfish-api-key && chmod 600 ~/.regfish-api-key
+claude plugin install regfish@regfish --config api_key="$(cat ~/.regfish-api-key)"
+```
 
 ## What you get
 
