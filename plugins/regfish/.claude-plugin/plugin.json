@@ -1,7 +1,7 @@
 {
   "name": "regfish",
-  "description": "Manage regfish domains, DNS records, DNSSEC and web hosting directly from Claude. Bundles the regfish MCP server and skills for safe DNS changes and domain diagnostics.",
-  "version": "1.2.0",
+  "description": "Manage regfish domains, DNS records, DNSSEC and web hosting directly from Claude. Signs in through your browser — no API key to copy.",
+  "version": "2.0.0",
   "author": {
     "name": "regfish",
     "email": "support@regfish.com"
@@ -16,14 +16,5 @@
     "hosting",
     "registrar",
     "mcp"
-  ],
-  "userConfig": {
-    "api_key": {
-      "type": "string",
-      "title": "regfish API key",
-      "description": "Create one in the regfish dashboard under Settings → Security → API keys. Paste the complete key; the '.' it contains is part of it (older keys carry a '=' instead). Pick a role that matches what you want Claude to do — 'DNS administrator' for record changes, 'read only' to look but not touch.",
-      "sensitive": true,
-      "default": ""
-    }
-  }
+  ]
 }
