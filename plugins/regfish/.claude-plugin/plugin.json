@@ -21,7 +21,7 @@
     "api_key": {
       "type": "string",
       "title": "regfish API key",
-      "description": "Create one in the regfish dashboard under Settings → Security → API keys. Paste the complete key; the '=' it contains is part of it. Pick a role that matches what you want Claude to do — 'DNS administrator' for record changes, 'read only' to look but not touch.",
+      "description": "Create one in the regfish dashboard under Settings → Security → API keys. Paste the complete key; the '.' it contains is part of it (older keys carry a '=' instead). Pick a role that matches what you want Claude to do — 'DNS administrator' for record changes, 'read only' to look but not touch.",
       "sensitive": true,
       "default": ""
     }
