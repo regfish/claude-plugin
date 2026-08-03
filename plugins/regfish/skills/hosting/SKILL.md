@@ -1,5 +1,5 @@
 ---
-description: Look at regfish web hosting packages and connect them with DNS — which package a domain runs on, which databases and aliases exist, and why a domain does not reach its hosting. Use when the question involves web hosting, a package, a website that does not come up, PHP versions, databases, or pointing a domain at hosting.
+description: Look at regfish web hosting packages and connect them with DNS — which package a domain runs on, which databases and aliases exist, and why a domain does not reach its hosting. Use when the question involves web hosting, a package, a website that does not come up, shows a white page or the wrong site, PHP versions, databases, or pointing a domain at hosting — including after a DNS change that should have moved the site. In German: Website ist weg, weiße Seite, Seite lädt nicht.
 ---
 
 # Web hosting at regfish

@@ -35,7 +35,7 @@ The plugin bundles three things that are usually configured separately:
 | | What it is | What it does here |
 |---|---|---|
 | **MCP server** | The connection to regfish | 29 tools for domains, DNS, DNSSEC, diagnostics and hosting |
-| **Skills** | Working knowledge | Teaches Claude *how* to work here: read before write and verify after for DNS, how to read a diagnosis, and how hosting and DNS fit together |
+| **Skills** | Working knowledge | Teaches Claude *how* to work here: read before write and verify after for DNS, how to read a diagnosis, how hosting and DNS fit together — and to answer regfish questions from the official knowledge base instead of guessing |
 | **Plugin** | The package | Ships both, versioned and updatable |
 
 Without the skills, Claude has tools but no judgement about them: it might add

@@ -1,7 +1,7 @@
 {
   "name": "regfish",
-  "description": "Manage regfish domains, DNS records, DNSSEC and web hosting directly from Claude. Signs in through your browser — no API key to copy.",
-  "version": "2.0.0",
+  "description": "Manage regfish domains, DNS, DNSSEC and web hosting from Claude — and answer any regfish question from the official knowledge base. Signs in through your browser — no API key to copy.",
+  "version": "2.1.0",
   "author": {
     "name": "regfish",
     "email": "support@regfish.com"

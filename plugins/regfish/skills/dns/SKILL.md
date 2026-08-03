@@ -1,5 +1,5 @@
 ---
-description: Change DNS records, nameservers or DNSSEC on regfish domains safely. Use whenever the task touches a DNS record (A, AAAA, CNAME, MX, TXT, CAA, ALIAS), a nameserver switch, DNSSEC, or a mail/verification record like SPF, DKIM, DMARC or a domain-ownership TXT.
+description: Change DNS records, nameservers or DNSSEC on regfish domains safely. Use whenever the task touches a DNS record (A, AAAA, CNAME, MX, TXT, CAA, ALIAS), a nameserver switch, DNSSEC, or a mail/verification record like SPF, DKIM, DMARC or a domain-ownership TXT. Also for the tasks behind those words — a server move or IP change, pointing a domain at hosting, Vercel, Netlify or GitHub Pages, setting up mail on Google Workspace or Microsoft 365, verifying a domain for Search Console or an ACME DNS challenge, or adding a subdomain. In German: Server-Umzug, IP ändern, Domain umleiten, Subdomain anlegen.
 ---
 
 # Changing DNS at regfish

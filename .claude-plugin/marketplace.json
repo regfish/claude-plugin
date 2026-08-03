@@ -6,20 +6,27 @@
   },
   "metadata": {
     "description": "Official regfish plugins for Claude Code — manage domains and DNS from your assistant.",
-    "version": "2.0.0"
+    "version": "2.1.0"
   },
   "plugins": [
     {
       "name": "regfish",
       "source": "./plugins/regfish",
-      "description": "Domains, DNS, DNSSEC and hosting from Claude — includes the regfish MCP server and skills for safe DNS changes and domain diagnostics.",
-      "version": "2.0.0",
+      "description": "Domains, DNS, DNSSEC and hosting from Claude — includes the regfish MCP server, skills for safe DNS changes and domain diagnostics, and answers from the official regfish knowledge base.",
+      "version": "2.1.0",
       "author": {
         "name": "regfish"
       },
       "homepage": "https://regfish.de/docs/mcp",
       "license": "MIT",
-      "keywords": ["dns", "domains", "dnssec", "hosting", "registrar", "mcp"]
+      "keywords": [
+        "dns",
+        "domains",
+        "dnssec",
+        "hosting",
+        "registrar",
+        "mcp"
+      ]
     },
     {
       "name": "dns-doctor",
@@ -34,7 +41,15 @@
       },
       "homepage": "https://dns-doctor.com/mcp",
       "license": "MIT",
-      "keywords": ["dns", "dnssec", "spf", "dkim", "dmarc", "diagnostics", "mcp"]
+      "keywords": [
+        "dns",
+        "dnssec",
+        "spf",
+        "dkim",
+        "dmarc",
+        "diagnostics",
+        "mcp"
+      ]
     }
   ]
 }
