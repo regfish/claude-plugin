@@ -1,5 +1,5 @@
 ---
-description: Diagnose a domain and turn the findings into concrete fixes — reachability, mail deliverability (SPF, DKIM, DMARC), DNSSEC and propagation. Use when someone asks why mail lands in spam or bounces, why emails do not arrive, whether a domain is set up correctly, why a change has not taken effect, whether a domain name is still free to register, or for a general health check — also before buying a name or after a migration. In German: Mail kommt nicht an, landet im Spam, ist die Domain noch frei, Domain prüfen.
+description: Diagnose a domain and turn the findings into concrete fixes — reachability, mail deliverability (SPF, DKIM, DMARC), DNSSEC and propagation. Use when someone asks why mail lands in spam or bounces, why emails do not arrive, whether a domain is set up correctly, why a change has not taken effect, why a domain is down or unreachable only for some users or networks, whether a domain name is still free to register, or for a general health check — also before buying a name or after a migration. In German: Mail kommt nicht an, landet im Spam, ist die Domain noch frei, Domain prüfen.
 ---
 
 # Diagnosing a domain

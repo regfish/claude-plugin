@@ -6,14 +6,14 @@
   },
   "metadata": {
     "description": "Official regfish plugins for Claude Code — manage domains and DNS from your assistant.",
-    "version": "2.1.0"
+    "version": "2.1.1"
   },
   "plugins": [
     {
       "name": "regfish",
       "source": "./plugins/regfish",
       "description": "Domains, DNS, DNSSEC and hosting from Claude — includes the regfish MCP server, skills for safe DNS changes and domain diagnostics, and answers from the official regfish knowledge base.",
-      "version": "2.1.0",
+      "version": "2.1.1",
       "author": {
         "name": "regfish"
       },
